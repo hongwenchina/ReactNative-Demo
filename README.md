@@ -7,7 +7,7 @@
 * [Android](#android)  
 
 
-![Gigya Integration with React Native](http://alejandro.gigya-cs.com/gigyarn.gif)
+![Gigya Integration with React Native](http://alejandro.gigya-cs.com/ReactNativeDemo/gigyareactnative.gif) ![Gigya Integration with React Native](http://alejandro.gigya-cs.com/ReactNativeDemo/rnComments.gif)
 
 <a name="about"></a>
 ## About this project
