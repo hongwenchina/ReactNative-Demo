@@ -121,13 +121,14 @@ class App extends React.Component {
 
     const Layout = createRootNavigator(isSessionValid);
     return (
-      <Root>        
+      <Root>
         <Layout screenProps={{
           account: gigyaAccount,
           signedIn: isSessionValid,
           gigya: Gigya,
           notifyUser: this.notifyUser,
           loading: this.loading,
+          updateUserState: this.onAccountDidLogin
         }} />
         { isLoading && <Spinner /> }
       </Root>

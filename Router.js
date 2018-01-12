@@ -5,6 +5,7 @@ import SignUp from "./components/SignUp";
 import SignIn from "./components/SignIn";
 import ForgotPwd from "./components/ForgotPwd";
 import Comments from "./components/Comments";
+import SocialAccounts from "./components/SocialAccounts";
 import Home from "./components/Home";
 
 export const SignedOut = StackNavigator({
@@ -47,7 +48,16 @@ export const SignedIn = TabNavigator({
         ),
       }
     },
-  }, 
+    SocialAccounts: {
+      screen: SocialAccounts,
+      navigationOptions: {
+        tabBarLabel: "Social Accounts",
+        tabBarIcon: ({ tintColor }) => (
+          <Icon name='settings' style={{color: tintColor}} />
+        ),
+      }
+    },
+  },
   {
     animationEnabled: true,
     tabBarOptions: {

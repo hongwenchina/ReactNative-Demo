@@ -102,6 +102,21 @@ RCT_EXPORT_METHOD(setAccountInfo:(NSDictionary*)params callback:(RCTResponseSend
   }];
 }
 
+RCT_EXPORT_METHOD(addConnection:(NSString *)provider callback:(RCTResponseSenderBlock)callback) {
+  NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
+  
+  [Gigya addConnectionToProvider:provider
+                      parameters:parameters
+                            over:[UIViewController currentViewController]
+               completionHandler:^(GSUser *user, NSError *error) {
+     if (!error) {
+       callback(@[[NSNull null], user.JSONString]);
+     } else {
+       callback(@[error.localizedDescription, [NSNull null]]);
+     }
+   }];
+}
+
 RCT_EXPORT_METHOD(logout) {
   [Gigya logout];
 }
