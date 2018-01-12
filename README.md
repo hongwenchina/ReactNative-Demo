@@ -1,10 +1,10 @@
-## Table of Contents  
-[About this project](#about)  
-[Requirements](#requirements)  
-[Running this demo](#running)  
-[Integrating Gigya with existing projects](#existing)  
-* [iOS](#ios)  
-* [Android](#android)  
+## Table of Contents
+[About this project](#about)
+[Requirements](#requirements)
+[Running this demo](#running)
+[Integrating Gigya with existing projects](#existing)
+* [iOS](#ios)
+* [Android](#android)
 
 
 ![Gigya Integration with React Native](http://alejandro.gigya-cs.com/ReactNativeDemo/gigyareactnative.gif) ![Gigya Integration with React Native](http://alejandro.gigya-cs.com/ReactNativeDemo/rnComments.gif)
@@ -22,6 +22,7 @@ Currently, this demo includes sample flows in iOS and Android for:
 * Social Login w/ Facebook, Google and Twitter
 * Update Profile via Screen-Sets
 * Comments via `comments.commentsUI`
+* Native Add Connection (Add social account)
 * Logout
 
 <a name="requirements"></a>
@@ -117,7 +118,7 @@ In your React Native Android Project:
 
 **JavaScript**
 
-Finally, call your bridge from the React Native code: 
+Finally, call your bridge from the React Native code:
 ```jsx
 // Importing the bridge
 import { NativeEventEmitter, NativeModules } from 'react-native';
