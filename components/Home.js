@@ -38,17 +38,17 @@ const Home = ({ screenProps }) => {
     <Container style={globalStyles.container}>
       <Content>
         <H3 style={styles.welcome}>Welcome {screenProps.account.profile.firstName}</H3>
-        <H3></H3> 
-        <H3></H3> 
         <H3></H3>
-          <Button
-            onPress={() => this.onViewProfilePressed()}
-            style={styles.button}
-            block
-            success
-          >
-            <Text>View Profile</Text>
-          </Button>
+        <H3></H3>
+        <H3></H3>
+        <Button
+          onPress={() => this.onViewProfilePressed()}
+          style={styles.button}
+          block
+          success
+        >
+          <Text>View Profile</Text>
+        </Button>
       </Content>
       <Footer>
         <FooterTab>

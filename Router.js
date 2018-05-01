@@ -7,6 +7,7 @@ import ForgotPwd from "./components/ForgotPwd";
 import Comments from "./components/Comments";
 import SocialAccounts from "./components/SocialAccounts";
 import Home from "./components/Home";
+import WebBridgeDemo from "./components/WebBridgeDemo";
 
 export const SignedOut = StackNavigator({
   SignIn: {
@@ -36,6 +37,15 @@ export const SignedIn = TabNavigator({
         tabBarLabel: "Home",
         tabBarIcon: ({ tintColor }) => (
           <Icon name='home' style={{color: tintColor}} />
+        ),
+      }
+    },
+    WebBridgeDemo: {
+      screen: WebBridgeDemo,
+      navigationOptions: {
+        tabBarLabel: "Web Bridge",
+        tabBarIcon: ({ tintColor }) => (
+          <Icon name='globe' style={{color: tintColor}} />
         ),
       }
     },
