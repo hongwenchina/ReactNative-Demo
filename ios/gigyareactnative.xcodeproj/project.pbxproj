@@ -25,6 +25,8 @@
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		1CBF320079EE439F9D085E23 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132F874F415B4CBAAF619CAB /* Entypo.ttf */; };
 		2043560DC1C74933AC7DD14D /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6CCBADCF0D6D40BE8C025D7F /* Octicons.ttf */; };
+		28613C0C2098B25A00F4414C /* RCTGigyaWebViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 28613BEC2098B25A00F4414C /* RCTGigyaWebViewManager.m */; };
+		28613C0D2098B25A00F4414C /* RCTGigyaWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28613C0B2098B25A00F4414C /* RCTGigyaWebView.m */; };
 		29BC3AB07E9F4188BA3EF25F /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D19ED9278564EB88450C843 /* MaterialIcons.ttf */; };
 		2FBFC784B24C4AA09EB0E670 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 089AB722DC6F4C2AAC264A5D /* EvilIcons.ttf */; };
 		3BFFCE64FB6F45FC80D2736D /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BE4CDFD4F7441FA86ADF7D8 /* Entypo.ttf */; };
@@ -302,6 +304,8 @@
 		16FE531C120A490395B260A1 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		182A13CC20ED48E185C54162 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
 		27808AA581894F058910DCEE /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		28613BEC2098B25A00F4414C /* RCTGigyaWebViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTGigyaWebViewManager.m; path = gigyareactnative/RCTGigyaWebViewManager.m; sourceTree = "<group>"; };
+		28613C0B2098B25A00F4414C /* RCTGigyaWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTGigyaWebView.m; path = gigyareactnative/RCTGigyaWebView.m; sourceTree = "<group>"; };
 		2CD77870A47843C29F270DF3 /* libRNVectorIcons.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNVectorIcons.a; sourceTree = "<group>"; };
 		4D19ED9278564EB88450C843 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		524DB43E63124864A82CBD38 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
@@ -577,6 +581,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				28613C0B2098B25A00F4414C /* RCTGigyaWebView.m */,
+				28613BEC2098B25A00F4414C /* RCTGigyaWebViewManager.m */,
 				13B07FAE1A68108700A75B9A /* gigyareactnative */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* gigyareactnativeTests */,
@@ -1092,6 +1098,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28613C0C2098B25A00F4414C /* RCTGigyaWebViewManager.m in Sources */,
+				28613C0D2098B25A00F4414C /* RCTGigyaWebView.m in Sources */,
 				684EE5661F5858290031D381 /* UIViewController+Utils.m in Sources */,
 				A2DFC0DD1F2756920061CD2F /* GigyaBridge.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
