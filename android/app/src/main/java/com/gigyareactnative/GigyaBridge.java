@@ -238,6 +238,35 @@ public class GigyaBridge extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
+    public void addConnection(String provider, final Callback callback){
+        GSObject params = new GSObject();
+        params.put("provider", provider);
+
+        GSResponseListener resListener = new GSResponseListener() {
+            @Override
+            public void onGSResponse(String method, GSResponse response, Object context) {
+                try {
+                    if (response.getErrorCode()!=0) {
+                        callback.invoke(response.getData().toJsonString());
+                    } else {
+                        callback.invoke(null, response.getData().toJsonString());
+                    }
+                }
+                catch (Exception ex) {
+                    callback.invoke(ex.getLocalizedMessage());
+                }
+            }
+        };
+
+        try {
+            GSAPI.getInstance().addConnection(thisReactContext.getCurrentActivity(), params, resListener, null);
+        }
+        catch (Exception ex) {
+            callback.invoke(ex.getLocalizedMessage());
+        }
+    }
+
+    @ReactMethod
     public void logout(){
         GSAPI.getInstance().logout();
     }
