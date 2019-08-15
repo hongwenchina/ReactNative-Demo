@@ -1,8 +1,8 @@
 ## Table of Contents
-[About this project](#about)
-[Requirements](#requirements)
-[Running this demo](#running)
-[Integrating Gigya with existing projects](#existing)
+[About this project](#about)<br />
+[Requirements](#requirements)<br />
+[Running this demo](#running)<br />
+[Integrating Gigya with existing projects](#existing)<br />
 * [iOS](#ios)
 * [Android](#android)
 
