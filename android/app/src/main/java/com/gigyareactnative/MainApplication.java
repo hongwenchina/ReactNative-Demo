@@ -25,9 +25,10 @@ public class MainApplication extends Application implements ReactApplication {
     @Override
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
-          new MainReactPackage(),
-            new VectorIconsPackage(),
-              new GigyaBridgePackage()
+        new MainReactPackage(),
+        new VectorIconsPackage(),
+        new GigyaBridgePackage(),
+        new GigyaWebViewManagerPackage()
       );
     }
   };
@@ -41,7 +42,7 @@ public class MainApplication extends Application implements ReactApplication {
   public void onCreate() {
     super.onCreate();
 
-    GSAPI.getInstance().initialize(this, "3_L7xm_by92yHMggImKfw4wjX5znV51SSSZ8am6bj7HZGRYUilfMfshATkdBma_wxR", "au1.gigya.com");
+    GSAPI.getInstance().initialize(this, "3_n6HDyxNJWZ9C6j1JcQrexeRptHoiCayyzLQ0pXGd05WwXoYNaZAC83wQ2F7kCLWN", "eu1.gigya.com");
 
     SoLoader.init(this, /* native exopackage */ false);
   }
