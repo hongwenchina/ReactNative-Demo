@@ -36,16 +36,16 @@
   rootViewController.view = rootView;
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
- 
-  [Gigya initWithAPIKey:@"3_n6HDyxNJWZ9C6j1JcQrexeRptHoiCayyzLQ0pXGd05WwXoYNaZAC83wQ2F7kCLWN" application:application launchOptions:launchOptions APIDomain:@"eu1.gigya.com"];
-  
-  
+
+  [Gigya initWithAPIKey:@"3_-ISPweEI6FBntonoRF_pLPVuPh1Y4k_zJxDvmAJNxaK4nPadB2tYkMTCknO0qBqy" application:application launchOptions:launchOptions APIDomain:@"eu1.gigya.com"];
+
+
   return YES;
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
   // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-  
+
   // Logs 'install' and 'app activate' App Events.
   [Gigya handleDidBecomeActive];
 }

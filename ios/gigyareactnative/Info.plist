@@ -29,24 +29,24 @@
 			<string>com.gigya.TestApp</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb1117968921573873</string>
+				<string>fb1624642011131972</string>
 			</array>
 		</dict>
 		<dict>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.googleusercontent.apps.988997886563-9c4lg8uta795g3djfrfnr0l2vg76tb6g</string>
+			<string>com.googleusercontent.apps.512912708764-pvin4oc9h04lohuukvqnv0krc4mpmnhh</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.googleusercontent.apps.988997886563-9c4lg8uta795g3djfrfnr0l2vg76tb6g</string>
+				<string>com.googleusercontent.apps.512912708764-pvin4oc9h04lohuukvqnv0krc4mpmnhh</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>FacebookAppID</key>
-	<string>1117968921573873</string>
+	<string>1624642011131972</string>
 	<key>FacebookDisplayName</key>
 	<string>GigyaTest2</string>
 	<key>GigyaTouchIDEnabled</key>
@@ -54,7 +54,7 @@
 	<key>GigyaTouchIDMessage</key>
 	<string>Please TouchID to continue</string>
 	<key>GoogleClientID</key>
-	<string>988997886563-9c4lg8uta795g3djfrfnr0l2vg76tb6g.apps.googleusercontent.com</string>
+	<string>512912708764-pvin4oc9h04lohuukvqnv0krc4mpmnhh.apps.googleusercontent.com</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>com.google.gppconsent</string>
@@ -71,7 +71,7 @@
 		<string>fbauth2</string>
 		<string>fbshareextension</string>
 		<string>fb</string>
-		<string>com.googleusercontent.apps.988997886563-9c4lg8uta795g3djfrfnr0l2vg76tb6g</string>
+		<string>com.googleusercontent.apps.512912708764-pvin4oc9h04lohuukvqnv0krc4mpmnhh</string>
 		<string>com.googleusercontent.apps</string>
 	</array>
 	<key>LSRequiresIPhoneOS</key>
